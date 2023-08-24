@@ -1,0 +1,85 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_action_search.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_baseline_home_24.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_bill.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_cuahang.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_customer.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_hd.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_logout.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_pass.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_person.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_thongke.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_user.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/ic_wave.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/vien.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/vien2.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable-v24/vien3.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/bgr.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/bgr_2.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/custom_btn_login.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.182" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.1535" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.1535" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/ic_clock.xml" value="0.1535" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/ic_image.xml" value="0.182" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/ic_right_35dp.xml" value="0.182" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/ic_thongke.xml" value="0.182" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/moto_icon.xml" value="0.182" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/vien1.xml" value="0.182" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/vien4.xml" value="0.238" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/vien_bill.xml" value="0.1535" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/drawable/vien_bill_2.xml" value="0.1535" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_dangky.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_dialog_suaxe.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_dialog_thanhtoan.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_dialog_themhoadon.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_dialog_themxe.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_viewbill.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/activity_viewxe.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/bieudodoanhthu_tab_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/content_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/custom_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/custom_splass_screen.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/dialog_add_khachhang.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/dialog_edit_bill.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/dialog_edit_khachhang.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/dialog_nhapngay.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/dialog_sua_nhanvien.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/dialog_them_nhanvien.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/dialog_viewbill.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/dialog_viewxe.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/doanhthu7ngay_tab_fragment.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/doanhthu_tab_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/doanhthunam_tab_fragment.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/doanhthuthang_tab_fragment.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/fragment_hoadon.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/fragment_home.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/fragment_khach_hang.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/fragment_nhanvien.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/fragment_thongke.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/layout_hoadon.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/layout_khachhang.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/layout_nhanvien.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/layout_sanpham.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/login_tab_fragment.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/nav_header_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/signup_tab_fragment.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/layout/soluongxe_tab_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/Quan_li_cua_hang_xe_may/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="#ffffff">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Sửa nhân viên"
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+        </TableRow>
+
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Tên nhân viên:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_hoten"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Ngày sinh:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_ngaysinh"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Số điện thoại:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_sdt"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Số căn cước công dân:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_soCmnd"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Giới tính:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:layout_gravity="center"/>
+            <RadioGroup
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/rg_gioitinh"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rb_nam"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nam"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_nu"
+                    android:text="Nữ"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Địa chỉ:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_adress"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow14"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Chức vụ:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:layout_gravity="center"/>
+            <RadioGroup
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:id="@+id/rg_chucvu"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_nhanvien"
+                    android:layout_marginRight="20dp"
+                    android:text="Nhân viên" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_quanli"
+                    android:text="Quản lý"/>
+            </RadioGroup>
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>

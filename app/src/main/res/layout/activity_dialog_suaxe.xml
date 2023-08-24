@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="#ffffff">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Sửa sản phẩm"
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Tên xe:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_ten"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Loại xe:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <Spinner
+                android:id="@+id/spin_loaixe"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Giá:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_price"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow16"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Số lượng:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_soluong"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Mô tả:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_mta"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <LinearLayout
+            android:id="@+id/tableRow7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_addImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:backgroundTint="#00D4C2"
+                android:src="@drawable/ic_image"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:text="Chọn hình ảnh"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+
+        </LinearLayout>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

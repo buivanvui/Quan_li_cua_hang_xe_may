@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_cuahang"
+            android:title="Trang Chủ" />
+        <item
+            android:id="@+id/nav_hoadon"
+            android:icon="@drawable/ic_bill"
+            android:title="Hóa Đơn" />
+        <item
+            android:id="@+id/nav_khachhang"
+            android:icon="@drawable/ic_customer"
+            android:title="Khách Hàng" />
+        <item
+            android:id="@+id/nav_nhanvien"
+            android:icon="@drawable/ic_user"
+            android:title="Nhân viên" />
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@drawable/ic_chart"
+            android:title="Thống kê" />
+    </group>
+    <item
+        android:title="Đăng xuất">
+        <menu>
+            <item android:title="Thoát"
+                android:id="@+id/nav_dangxuat"
+                android:icon="@drawable/ic_logout"></item>
+        </menu>
+    </item>
+</menu>

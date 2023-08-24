@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/viewFLipper" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="70dp">
+        <ImageButton
+            android:id="@+id/ib_All_xe"
+            android:background="@drawable/all"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/ib_xe_ga"
+            android:background="@drawable/motorcycle"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/ib_xe_so"
+            android:background="@drawable/xeso"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib_xe_phankhoilon"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/motorbike"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib_xe_dien"
+            android:background="@drawable/electric_scooter"
+            android:layout_marginLeft="45dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tất cả"
+            android:layout_marginLeft="17dp"
+            android:textSize="17dp"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xe ga"
+            android:layout_marginLeft="30dp"
+            android:textSize="17dp"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xe số"
+            android:layout_marginLeft="25dp"
+            android:textSize="17dp"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phân khối lớn"
+            android:layout_marginLeft="15dp"
+            android:textSize="17dp"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xe điện"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@color/black"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sản phẩm"
+            android:textColor="#3F51B5"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"></TextView>
+        <GridView
+        android:id="@+id/gribview_xe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></GridView>
+    </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fab_add"
+    android:layout_margin="25dp"
+    android:src="@drawable/ic_add_black_24dp"
+    android:backgroundTint="#00BCD4"
+    app:fabSize="normal"
+    app:elevation="10dp"
+    android:layout_gravity="end|bottom"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+

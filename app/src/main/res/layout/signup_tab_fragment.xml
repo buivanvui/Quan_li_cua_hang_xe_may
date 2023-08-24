@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/ic_user"
+            android:gravity="center"
+            android:id="@+id/edit_taikhoan_dangky"
+            android:hint="Nhập tài khoản"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/vien2"/>
+        <EditText        android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/ic_pass"
+            android:inputType="textPassword"
+            android:id="@+id/edit_nhapmatkhau_dangky"
+            android:hint="Nhập mật khẩu"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/vien2"/>
+        <EditText        android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/ic_pass"
+            android:inputType="textPassword"
+            android:id="@+id/edit_nhaplaimatkhau_dangky"
+            android:hint="Nhập lại mật khẩu"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/vien2"/>
+
+        <Button
+            android:id="@+id/btn_dangky"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/articlecolor"
+            android:text="Đăng ký"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vien"/>
+    </LinearLayout>
+</ScrollView>

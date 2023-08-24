@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.quan_li_cua_hang_xe_may.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_hoadon"
+        android:name="com.example.quan_li_cua_hang_xe_may.ui.HoaDon.Fragment_HoaDon"
+        android:label="Hóa đơn"
+        tools:layout="@layout/fragment_hoadon" />
+
+    <fragment
+        android:id="@+id/nav_khachhang"
+        android:name="com.example.quan_li_cua_hang_xe_may.ui.KhachHang.Fragment_KhachHang"
+        android:label="Khách hàng"
+        tools:layout="@layout/fragment_khach_hang" />
+    <fragment
+        android:id="@+id/nav_dangxuat"
+        android:name="com.example.quan_li_cua_hang_xe_may.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_nhanvien"
+        android:name="com.example.quan_li_cua_hang_xe_may.ui.Nhanvien.Fragment_Nhanvien"
+        android:label="Nhân viên"
+        tools:layout="@layout/fragment_nhanvien" />
+    <fragment
+        android:id="@+id/nav_thongke"
+        android:name="com.example.quan_li_cua_hang_xe_may.ui.Thongke.Fragment_ThongKe"
+        android:label="Thống kê"
+        tools:layout="@layout/fragment_thongke" />
+</navigation>

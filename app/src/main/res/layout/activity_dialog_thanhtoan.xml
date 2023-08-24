@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="#ffffff">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Thanh toán"
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Tên sản phẩm:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_ten"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Ngày bán:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_ngayban"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Tên khách hàng mua:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_khachmua"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Giá mua:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_giamua"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow63"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <TextView
+                android:text="Số lượng:"
+                android:textColor="#000000"
+                android:padding="10dip"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_sl"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+            <ImageView
+                android:id="@+id/img_pay"
+                android:background="@drawable/pay"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_thanhtien"
+                android:textColor="#E91E1E"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:padding="20dip"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+</TableLayout>
